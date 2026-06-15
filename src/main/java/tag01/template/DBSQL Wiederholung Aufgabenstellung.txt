@@ -1,0 +1,19 @@
+/*
+Planen der Datenbank - Aufgabenstellung:
+Ein Kunde kann im Shop mehrere Artikel bestellen.
+Für die Bestellungen muss ein Kunde eine Adresse angeben.
+Ein Kunde kann mehrere Adressen haben.
+Eine Bestellung kann Artikel in beliebigen Stückzahlen enthalten.
+Jeder Artikel wird von einem bestimmten Hersteller hergestellt.
+Ein Hersteller kann mehrere Artikel herstellen.
+
+
+Kunden werden mit Kundennummer und Name gespeichert.
+Bestellungen werden mit Bestellnummer, Kundennummer, Datum, Rechnungsadresse und Lieferadresse gespeichert.
+Artikel haben Artikelnummer, Bezeichnung und Preis.
+Hersteller werden mit Nummer und Name gespeichert.
+Adressen bestehen aus Straße mit Nummer, PLZ und Ort.
+
+Erstellen Sie ein Entity Relationship Modell und ein relationales Datenbankmodell in der dritten Normalform. Kennzeichnen Sie Primärschlüssel mit (PK) und Fremdschlüssel mit (FK). Datentypen müssen nicht angegeben werden.
+
+Setzen Sie anschließend das Modell in MySQL um. */

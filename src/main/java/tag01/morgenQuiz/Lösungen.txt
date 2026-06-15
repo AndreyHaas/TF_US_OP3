@@ -1,0 +1,18 @@
+1) Welche Klasse wird in Swing verwendet, um ein Fenster mit Titelleiste, Rahmen und Steuerungsschaltflächen zu erstellen?
+
+A) JFrame
+
+----------------------------------------------------------------------------------
+
+
+----------------------------------------------------------------------------------
+
+3) Welches Entwurfsmuster wird hauptsächlich verwendet, um eine flexible und wiederverwendbare Objekterzeugungsstruktur zu schaffen?
+
+C) Factory Method Pattern
+
+----------------------------------------------------------------------------------
+
+4) Was ist der Hauptzweck des Observer-Entwurfsmusters?
+
+B) Es ermöglicht einem Subjekt, dessen Beobachter über Zustandsänderungen zu informieren, woraufhin diese Beobachter sich selbstständig aktualisieren können.

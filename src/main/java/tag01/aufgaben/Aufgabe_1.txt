@@ -1,0 +1,9 @@
+Datenbank 'hochbau'
+
+Sie entwerfen eine Anwendung zur Verwaltung Ihrer Abteilungen, Mitarbeitern und deren Einsätzen auf den verschiedenen Baustellen.
+Abteilungen werden gespeichert mit Nummer und Name (Beispiel: Haustechnik).
+Mitarbeiter haben Nummer (Beispiel: M010), Maschinenberechtigung (Ja/Nein), Name, PLZ und sind einer Abteilung zugeordnet.
+Baustellen werden gespeichert mit Nummer (Beispiel: B021) und Bezeichnung.
+Mitarbeiter arbeiten auf verschiedenen Baustellen und die Einsatzzeit wird als volle Stunden aufsummiert.
+
+Erstellen Sie ein Entity Relationship Modell, überführen Sie dieses anschließend in ein relationales Datenbankmodell und erstellen Sie basierend darauf die Datenbank in MySQL.
