@@ -1,0 +1,18 @@
+1) Was ist ein Primärschlüssel in einer relationalen Datenbank?
+
+    B) Ein einzigartiger Identifikator für jede Zeile in einer Tabelle.
+    Eventuell auch D)
+    https://stackoverflow.com/questions/21829957/is-a-mysql-primary-key-already-in-some-sort-of-default-order
+----------------------------------------------------------------------------------
+
+2) Welcher SQL-Befehl wird verwendet, um neue Datensätze in eine Tabelle einzufügen?
+
+    B) INSERT INTO
+
+----------------------------------------------------------------------------------
+
+3) Welche Klausel sollte man im SELECT-Statement verwenden, um die zurückgegebenen Ergebnisse nach einem bestimmten Kriterium zu sortieren?
+
+    C) ORDER BY
+
+----------------------------------------------------------------------------------

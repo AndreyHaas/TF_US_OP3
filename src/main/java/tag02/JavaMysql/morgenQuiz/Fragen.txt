@@ -1,0 +1,24 @@
+1) Was ist ein Primärschlüssel in einer relationalen Datenbank?
+
+    A) Ein Schlüssel, der dazu verwendet wird, die Tabelle zu verschlüsseln.
+    B) Ein einzigartiger Identifikator für jede Zeile in einer Tabelle.
+    C) Eine Sammlung von Tabellen in einer Datenbank.
+    D) Der Hauptindex, der zur Sortierung der Datensätze verwendet wird.
+
+----------------------------------------------------------------------------------
+
+2) Welcher SQL-Befehl wird verwendet, um neue Datensätze in eine Tabelle einzufügen?
+    A) UPDATE
+    B) INSERT INTO
+    C) ADD RECORD
+    D) CREATE ENTRY
+
+----------------------------------------------------------------------------------
+
+3) Welche Klausel sollte man im SELECT-Statement verwenden, um die zurückgegebenen Ergebnisse nach einem bestimmten Kriterium zu sortieren?
+    A) GROUP BY
+    B) SORT BY
+    C) ORDER BY
+    D) ALIGN BY
+
+----------------------------------------------------------------------------------

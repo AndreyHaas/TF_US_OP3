@@ -53,4 +53,3 @@ LEFT JOIN adresse a2 ON a2.id = bestellung.rechnungsadresse
 LEFT JOIN bestellposition bp ON bestellung.nummer = bp.bestellung
 LEFT JOIN artikel on artikel.nummer = bp.artikel
 LEFT JOIN hersteller on hersteller.nummer = artikel.hersteller;
-
