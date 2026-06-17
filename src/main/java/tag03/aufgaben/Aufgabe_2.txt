@@ -1,0 +1,5 @@
+Erstellen Sie ein Java Programm zur Hochbau-Datenbank. Es reicht, wenn vorhandene Daten abgefragt werden können.
+Inserts und Updates sind an dieser Stelle noch nicht erforderlich.
+Testen Sie das Programm durch Ausgabe aller Daten.
+
+Sie können Services und Models in eine Klasse packen, um etwas Schreibarbeit zu sparen.

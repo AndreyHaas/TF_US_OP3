@@ -1,0 +1,3 @@
+Ergänzen Sie die vorhandenen Model- und Service-Klassen des Onlineshop-Beispiels durch die übrigen Klassen aus dem Diagramm (Kunde, Adresse, Bestellung, Bestellposition)
+Inserts und Updates sind an dieser Stelle noch nicht erforderlich.
+Testen Sie die Klassen, indem Sie alle Bestellungen mit Artikeln, Kunden und Adressen ausgeben lassen.
