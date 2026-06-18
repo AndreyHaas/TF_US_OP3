@@ -17,5 +17,12 @@ public class Onlineshop {
         for (Artikel artikel : Artikel.artikels.values()) {
             System.out.println(artikel);
         }
+
+        for (Hersteller hersteller : Hersteller.herstellers.values()) {
+            if (hersteller.getNummer() == 5) {
+                HerstellerService.updateHersteller(hersteller, "name", "IHK");
+            }
+            System.out.println(hersteller);
+        }
     }
 }

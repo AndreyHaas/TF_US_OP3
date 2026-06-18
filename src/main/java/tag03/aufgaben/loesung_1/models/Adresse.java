@@ -7,16 +7,16 @@ public class Adresse {
     public static final Map<Integer, Adresse> adressen = new HashMap<>();
 
     private final int id;
-    private String straßeNr;
+    private String strasseNr;
     private String plz;
     private String ort;
 
     private final Kunde kunde;
 
 
-    public Adresse(int id, String straßeNr, String plz, String ort, Kunde kunde) {
+    public Adresse(int id, String strasseNr, String plz, String ort, Kunde kunde) {
         this.id = id;
-        this.straßeNr = straßeNr;
+        this.strasseNr = strasseNr;
         this.plz = plz;
         this.ort = ort;
         this.kunde = kunde;
@@ -28,12 +28,12 @@ public class Adresse {
         return id;
     }
 
-    public String getStraßeNr() {
-        return straßeNr;
+    public String getStrasseNr() {
+        return strasseNr;
     }
 
-    public void setStraßeNr(String straßeNr) {
-        this.straßeNr = straßeNr;
+    public void setStrasseNr(String strasseNr) {
+        this.strasseNr = strasseNr;
     }
 
     public String getPlz() {
@@ -61,7 +61,7 @@ public class Adresse {
     public String toString() {
         return "Adresse{" +
                 "id=" + id +
-                ", straßeNr='" + straßeNr + '\'' +
+                ", strasseNr='" + strasseNr + '\'' +
                 ", plz='" + plz + '\'' +
                 ", ort='" + ort + '\'' +
                 ", kunde=" + kunde +

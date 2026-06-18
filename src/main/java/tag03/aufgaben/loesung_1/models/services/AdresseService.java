@@ -18,13 +18,13 @@ public class AdresseService {
             ResultSet rs = statement.executeQuery("select * from adresse");
             while (rs.next()) {
                 int id = rs.getInt("id");
-                String straßeNr = rs.getString("straßeNr");
+                String strasseNr = rs.getString("strasseNr");
                 String plz = rs.getString("plz");
                 String ort = rs.getString("ort");
 
                 Kunde kunde = Kunde.kunden.get(rs.getInt("kunde"));
 
-                new Adresse(id, straßeNr, plz, ort, kunde);
+                new Adresse(id, strasseNr, plz, ort, kunde);
             }
         } catch (SQLException e) {
             e.printStackTrace();
