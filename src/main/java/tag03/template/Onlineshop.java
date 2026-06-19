@@ -18,11 +18,11 @@ public class Onlineshop {
             System.out.println(artikel);
         }
 
-        for (Hersteller hersteller : Hersteller.herstellers.values()) {
+        /*for (Hersteller hersteller : Hersteller.herstellers.values()) {
             if (hersteller.getNummer() == 5) {
                 HerstellerService.updateHersteller(hersteller, "name", "IHK");
             }
             System.out.println(hersteller);
-        }
+        }*/
     }
 }
