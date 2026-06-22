@@ -1,0 +1,33 @@
+1) Was beschreibt das "Model" im Model-View-Controller (MVC) Architekturmuster am besten?
+
+    A) Die Benutzeroberfläche, über die der Nutzer mit der Anwendung interagiert.
+    B) Die Daten und die Geschäftslogik der Anwendung.
+    C) Den Teil der Anwendung, der für das Routing und die Kontrolle von Benutzereingaben zuständig ist.
+    D) Das Protokoll, das für die Kommunikation zwischen verschiedenen Komponenten einer verteilten Anwendung verwendet wird.
+
+----------------------------------------------------------------------------------
+
+2) Was ist die primäre Verantwortung des Controllers im MVC-Muster?
+
+    A) Die Datenhaltung und -persistenz.
+    B) Die Darstellung der Benutzeroberfläche.
+    C) Die Behandlung von Benutzereingaben und Koordination zwischen View und Model.
+    D) Das Styling von HTML-Elementen.
+
+----------------------------------------------------------------------------------
+
+3) In welcher Komponente des MVC-Musters wird üblicherweise die Logik zur Ansichtsgestaltung implementiert?
+
+    A) Im Model
+    B) Im Controller
+    C) In der View
+    D) Im Service Layer
+
+----------------------------------------------------------------------------------
+
+4) Was beschreibt am besten ein Szenario, in dem das MVC-Muster sinnvoll eingesetzt werden könnte?
+
+    A) Eine einfache statische Webseite ohne dynamischen Inhalt oder Interaktivität.
+    B) Eine Applikation mit klarer Trennung zwischen Datenverwaltung, Nutzerinteraktion und Präsentationslogik.
+    C) Ein Backend-Dienst, der ausschließlich REST-API-Endpoints bereitstellt, ohne eine Nutzerschnittstelle zu haben.
+    D) Ein Skript, das einmalig ausgeführt wird um Daten von einem Format ins andere zu konvertieren.
