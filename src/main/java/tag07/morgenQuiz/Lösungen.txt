@@ -1,0 +1,22 @@
+1) Was beschreibt das "Model" im Model-View-Controller (MVC) Architekturmuster am besten?
+
+    B) Die Daten und die Geschäftslogik der Anwendung.
+
+----------------------------------------------------------------------------------
+
+2) Was ist die primäre Verantwortung des Controllers im MVC-Muster?
+
+    C) Die Behandlung von Benutzereingaben und Koordination zwischen View und Model.
+
+----------------------------------------------------------------------------------
+
+3) In welcher Komponente des MVC-Musters wird üblicherweise die Logik zur Ansichtsgestaltung implementiert?
+
+    C) In der View
+
+----------------------------------------------------------------------------------
+
+4) Was beschreibt am besten ein Szenario, in dem das MVC-Muster sinnvoll eingesetzt werden könnte?
+
+    B) Eine Applikation mit klarer Trennung zwischen Datenverwaltung, Nutzerinteraktion und Präsentationslogik.
+

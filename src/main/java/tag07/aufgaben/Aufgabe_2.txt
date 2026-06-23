@@ -1,0 +1,5 @@
+Erstellen Sie zur Aufgabe 2 aus der DBSQL_Wiederholung (Universität) ein Java Programm
+Verwenden Sie für die Kursbelegungen Views und Stored Procedures!
+
+Die View der Kursbelegung soll KursKürzel, KursName, StudentNummer, StudentVorname, StudentNachname, Semester und Note beinhalten.
+Eine Prozedur soll neue Kursbelegungen anlegen und eine andere Prozedur soll die Note der Kursbelegung ändern können.
