@@ -1,0 +1,40 @@
+1)
+try (Connection connection = MySQL.getConnection();
+    CallableStatement statement = connection.prepareCall("{CALL insertArtikel()}")) // Keine Parameter angegeben (? fehlen)
+{
+    statement.setString(0, bezeichnung); // Index 0 angegeben. Parameter beginnen bei Index 1
+    statement.setBigDecimal(1, preis);
+    statement.setInt(2, hersteller);
+
+    statement.registerOutParameter(3, JDBCType.INTEGER);
+
+    if (statement.executeUpdate() > 0)
+        return statement.getInt(); // Keinen Index übergeben.
+
+    return -1;
+}
+
+----------------------------------------------------------------------------------
+
+2) Finden Sie den Fehler
+
+Artikel a = null;
+
+try (Connection connection = MySQL.getConnection();
+	 PreparedStatement statement = connection.prepareStatement(
+		 "INSERT INTO artikel (bezeichnung, preis, hersteller)", Statement.RETURN_GENERATED_KEYS))
+		// Values und Parameter fehlen im INSERT INTO
+{
+	statement.setString(bezeichnung); // Index fehlt
+	statement.setBigDecimal(preis); // Index fehlt
+	statement.setInt(hersteller.getNummer()); // Index fehlt
+
+	statement.executeUpdate();
+
+	ResultSet rs = statement.getGeneratedKeys();
+	if (rs.next())
+	{
+		int nummer = rs.getInt(1);
+		a = new Artikel(nummer, bezeichnung, preis, hersteller);
+	}
+}

@@ -1,0 +1,41 @@
+1) Finden Sie die Fehler:
+
+try (Connection connection = MySQL.getConnection();
+    CallableStatement statement = connection.prepareCall("{CALL insertArtikel()}"))
+{
+    statement.setString(0, bezeichnung);
+    statement.setBigDecimal(1, preis);
+    statement.setInt(2, hersteller);
+
+    statement.registerOutParameter(3, JDBCType.INTEGER);
+
+    if (statement.executeUpdate() > 0)
+        return statement.getInt();
+
+    return -1;
+}
+
+----------------------------------------------------------------------------------
+
+2) Finden Sie den Fehler
+
+Artikel a = null;
+
+try (Connection connection = MySQL.getConnection();
+	 PreparedStatement statement = connection.prepareStatement(
+		 "INSERT INTO artikel (bezeichnung, preis, hersteller)", Statement.RETURN_GENERATED_KEYS))
+{
+	statement.setString(bezeichnung);
+	statement.setBigDecimal(preis);
+	statement.setInt(hersteller.getNummer());
+
+	statement.executeUpdate();
+
+	ResultSet rs = statement.getGeneratedKeys();
+	if (rs.next())
+	{
+		int nummer = rs.getInt(1);
+		a = new Artikel(nummer, bezeichnung, preis, hersteller);
+	}
+}
+

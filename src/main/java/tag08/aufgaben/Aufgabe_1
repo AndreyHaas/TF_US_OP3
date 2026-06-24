@@ -1,0 +1,16 @@
+/* Bücherverleih
+    Bücher werden gespeichert mit ID und Titel. Jedes Buch ist nur ein Mal im Bestand.
+    Kunden haben Nummer, Name und Guthaben.
+    Ausleihe ist gespeichert mit Buch, Kunde, Datum, Dauer.
+    Wird ein Buch ausgeliehen, wird es in Ausleihe eingetragen und für die Dauer in Tagen je 1€ vom Guthaben des Kunden abgezogen.
+    Wird das Buch zurückgebracht, wird es aus der Ausleihe gelöscht.
+
+    Um ein Buch ausleihen zu können, muss geprüft werden, ob das Buch bereits ausgeliehen ist.
+    Dann muss geprüft werden, ob Kunde genug Guthaben für die Dauer hat.
+    Ist beides Okay, kann das Buch ausgeliehen werden.
+
+    Dieser Vorgang soll innerhalb einer Transaktion stattfinden. Tritt ein Fehler auf, wird der Vorgang rückgängig gemacht.
+
+*/
+
+
