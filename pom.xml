@@ -7,8 +7,12 @@
   <groupId>com.haas</groupId>
   <artifactId>TF_US_OP2b</artifactId>
   <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>BausteinFruefung</module>
+    </modules>
 
-  <properties>
+    <properties>
     <maven.compiler.source>25</maven.compiler.source>
     <maven.compiler.target>25</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
